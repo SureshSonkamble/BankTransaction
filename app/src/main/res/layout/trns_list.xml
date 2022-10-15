@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:id="@+id/lin"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:paddingLeft="05dp"
+            android:layout_gravity="end"
+            android:id="@+id/txt_d1"
+            android:text="Txn.Date"
+            android:textColor="#000000"
+            android:background="@drawable/edit_text_border"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:gravity="start|center"/>
+        <TextView
+            android:paddingLeft="05dp"
+            android:layout_gravity="end"
+            android:id="@+id/txt_d2"
+            android:text="Description"
+            android:textColor="#000000"
+            android:background="@drawable/edit_text_border"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:gravity="start|center"/>
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/txt_d3"
+            android:text="Debit"
+            android:textColor="#000000"
+            android:background="@drawable/edit_text_border"
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:gravity="center"/>
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/txt_d4"
+            android:text="Credit"
+            android:textColor="#000000"
+            android:background="@drawable/edit_text_border"
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:gravity="center"/>
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/txt_d5"
+            android:text="Balance"
+            android:textColor="#000000"
+            android:background="@drawable/edit_text_border"
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
